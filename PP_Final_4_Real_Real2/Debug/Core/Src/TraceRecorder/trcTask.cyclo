@@ -1,0 +1,4 @@
+../Core/Src/TraceRecorder/trcTask.c:27:13:xTraceTaskInitialize	2
+../Core/Src/TraceRecorder/trcTask.c:46:13:xTraceTaskSetPriority	1
+../Core/Src/TraceRecorder/trcTask.c:61:13:xTraceTaskSetPriorityWithoutHandle	2
+../Core/Src/TraceRecorder/trcTask.c:79:13:xTraceTaskSwitch	3

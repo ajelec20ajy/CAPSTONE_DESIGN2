@@ -1,0 +1,6 @@
+../Core/Src/BSP/ETC/bsp_nRF24.c:16:6:NRF24_WriteReg	16	static
+../Core/Src/BSP/ETC/bsp_nRF24.c:23:9:NRF24_ReadReg	24	static
+../Core/Src/BSP/ETC/bsp_nRF24.c:34:6:NRF24_Init	40	static
+../Core/Src/BSP/ETC/bsp_nRF24.c:78:9:NRF24_DataReady	8	static
+../Core/Src/BSP/ETC/bsp_nRF24.c:84:9:NRF24_GetPipeNum	8	static
+../Core/Src/BSP/ETC/bsp_nRF24.c:90:6:NRF24_Receive	24	static

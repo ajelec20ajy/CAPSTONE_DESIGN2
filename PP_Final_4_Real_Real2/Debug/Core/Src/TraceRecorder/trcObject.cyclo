@@ -1,0 +1,11 @@
+../Core/Src/TraceRecorder/trcObject.c:119:13:xTraceObjectUnregister	3
+../Core/Src/TraceRecorder/trcObject.c:155:13:xTraceObjectSetName	4
+../Core/Src/TraceRecorder/trcObject.c:22:13:xTraceObjectRegisterInternal	11
+../Core/Src/TraceRecorder/trcObject.c:107:13:xTraceObjectRegister	1
+../Core/Src/TraceRecorder/trcObject.c:113:13:xTraceObjectRegister2	1
+../Core/Src/TraceRecorder/trcObject.c:185:13:xTraceObjectRegisterWithoutHandle	1
+../Core/Src/TraceRecorder/trcObject.c:193:13:xTraceObjectRegisterWithoutHandle2	1
+../Core/Src/TraceRecorder/trcObject.c:201:13:xTraceObjectUnregisterWithoutHandle	2
+../Core/Src/TraceRecorder/trcObject.c:225:13:xTraceObjectSetNameWithoutHandle	3
+../Core/Src/TraceRecorder/trcObject.c:252:13:xTraceObjectSetSpecificStateWithoutHandle	2
+../Core/Src/TraceRecorder/trcObject.c:275:13:xTraceObjectSetOptionsWithoutHandle	3

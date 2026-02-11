@@ -1,0 +1,3 @@
+../Core/Src/BSP/GY_85/bsp_mag.c:25:6:Init_Mag	12
+../Core/Src/BSP/GY_85/bsp_mag.c:93:6:Read_Mag	1
+../Core/Src/BSP/GY_85/bsp_mag.c:98:6:Mag_ProcessData	1

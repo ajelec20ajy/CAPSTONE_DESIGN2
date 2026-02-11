@@ -1,0 +1,7 @@
+../Core/Src/TraceRecorder/trcError.c:181:20:prvTraceErrorGetDescription	0	static
+../Core/Src/TraceRecorder/trcError.c:117:20:prvTraceErrorPrint	16	static
+../Core/Src/TraceRecorder/trcError.c:24:13:xTraceErrorInitialize	0	static
+../Core/Src/TraceRecorder/trcError.c:40:13:xTraceWarning	8	static
+../Core/Src/TraceRecorder/trcError.c:60:13:xTraceError	16	static
+../Core/Src/TraceRecorder/trcError.c:89:13:xTraceErrorGetLast	8	static
+../Core/Src/TraceRecorder/trcError.c:103:13:xTraceErrorClear	0	static

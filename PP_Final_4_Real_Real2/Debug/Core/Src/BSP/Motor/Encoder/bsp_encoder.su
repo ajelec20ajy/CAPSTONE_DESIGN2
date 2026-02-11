@@ -1,0 +1,3 @@
+../Core/Src/BSP/Motor/Encoder/bsp_encoder.c:12:6:Init_Encoder	8	static
+../Core/Src/BSP/Motor/Encoder/bsp_encoder.c:16:10:GET_CNT1	0	static
+../Core/Src/BSP/Motor/Encoder/bsp_encoder.c:20:10:GET_CNT2	0	static

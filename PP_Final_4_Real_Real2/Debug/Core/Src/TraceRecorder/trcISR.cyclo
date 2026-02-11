@@ -1,0 +1,5 @@
+../Core/Src/TraceRecorder/trcISR.c:25:13:xTraceISRInitialize	3
+../Core/Src/TraceRecorder/trcISR.c:70:13:xTraceISRRegister	6
+../Core/Src/TraceRecorder/trcISR.c:117:13:xTraceISRBegin	3
+../Core/Src/TraceRecorder/trcISR.c:169:13:xTraceISREnd	4
+../Core/Src/TraceRecorder/trcISR.c:270:18:xTraceSetISRProperties	1

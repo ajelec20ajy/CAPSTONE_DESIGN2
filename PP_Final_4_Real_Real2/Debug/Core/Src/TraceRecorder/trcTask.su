@@ -1,0 +1,4 @@
+../Core/Src/TraceRecorder/trcTask.c:27:13:xTraceTaskInitialize	0	static
+../Core/Src/TraceRecorder/trcTask.c:46:13:xTraceTaskSetPriority	8	static
+../Core/Src/TraceRecorder/trcTask.c:61:13:xTraceTaskSetPriorityWithoutHandle	24	static
+../Core/Src/TraceRecorder/trcTask.c:79:13:xTraceTaskSwitch	8	static,ignoring_inline_asm

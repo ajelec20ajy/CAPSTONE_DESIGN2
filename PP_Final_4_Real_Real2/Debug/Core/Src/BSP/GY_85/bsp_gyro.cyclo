@@ -1,0 +1,3 @@
+../Core/Src/BSP/GY_85/bsp_gyro.c:10:6:Init_Gyro	3
+../Core/Src/BSP/GY_85/bsp_gyro.c:45:6:Read_Gyro	1
+../Core/Src/BSP/GY_85/bsp_gyro.c:50:6:Gyro_ProcessData	1

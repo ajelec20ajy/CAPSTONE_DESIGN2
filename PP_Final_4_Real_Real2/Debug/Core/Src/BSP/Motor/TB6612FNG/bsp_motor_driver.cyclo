@@ -1,0 +1,3 @@
+../Core/Src/BSP/Motor/TB6612FNG/bsp_motor_driver.c:13:6:Motor_Drive_TIM1_L	4
+../Core/Src/BSP/Motor/TB6612FNG/bsp_motor_driver.c:35:6:Motor_Drive_TIM1_R	4
+../Core/Src/BSP/Motor/TB6612FNG/bsp_motor_driver.c:57:6:Init_Motor_Driver	1

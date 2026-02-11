@@ -1,0 +1,7 @@
+../Core/Src/TraceRecorder/trcError.c:181:20:prvTraceErrorGetDescription	16
+../Core/Src/TraceRecorder/trcError.c:117:20:prvTraceErrorPrint	6
+../Core/Src/TraceRecorder/trcError.c:24:13:xTraceErrorInitialize	1
+../Core/Src/TraceRecorder/trcError.c:40:13:xTraceWarning	3
+../Core/Src/TraceRecorder/trcError.c:60:13:xTraceError	4
+../Core/Src/TraceRecorder/trcError.c:89:13:xTraceErrorGetLast	2
+../Core/Src/TraceRecorder/trcError.c:103:13:xTraceErrorClear	2

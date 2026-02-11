@@ -1,0 +1,2 @@
+../Core/Src/TraceRecorder/trcString.c:16:13:xTraceStringRegister	4
+../Core/Src/TraceRecorder/trcString.c:48:21:xTraceRegisterString	1

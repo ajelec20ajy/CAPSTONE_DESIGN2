@@ -1,0 +1,2 @@
+../Core/Src/TraceRecorder/streamports/RingBuffer/trcStreamPort.c:23:13:xTraceStreamPortInitialize	8	static
+../Core/Src/TraceRecorder/streamports/RingBuffer/trcStreamPort.c:98:13:xTraceStreamPortOnTraceBegin	8	static

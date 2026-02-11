@@ -1,0 +1,9 @@
+../Core/Src/TraceRecorder/trcDiagnostics.c:17:13:xTraceDiagnosticsInitialize	0	static
+../Core/Src/TraceRecorder/trcDiagnostics.c:36:13:xTraceDiagnosticsGet	0	static
+../Core/Src/TraceRecorder/trcDiagnostics.c:52:13:xTraceDiagnosticsSet	0	static
+../Core/Src/TraceRecorder/trcDiagnostics.c:65:13:xTraceDiagnosticsAdd	0	static
+../Core/Src/TraceRecorder/trcDiagnostics.c:78:13:xTraceDiagnosticsIncrease	8	static
+../Core/Src/TraceRecorder/trcDiagnostics.c:83:13:xTraceDiagnosticsDecrease	8	static
+../Core/Src/TraceRecorder/trcDiagnostics.c:88:13:xTraceDiagnosticsSetIfHigher	0	static
+../Core/Src/TraceRecorder/trcDiagnostics.c:104:13:xTraceDiagnosticsSetIfLower	0	static
+../Core/Src/TraceRecorder/trcDiagnostics.c:120:13:xTraceDiagnosticsCheckStatus	8	static

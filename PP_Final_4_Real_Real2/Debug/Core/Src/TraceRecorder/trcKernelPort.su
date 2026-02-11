@@ -1,0 +1,12 @@
+../Core/Src/TraceRecorder/trcKernelPort.c:233:8:TzCtrl	8	static
+../Core/Src/TraceRecorder/trcKernelPort.c:130:13:xTraceKernelPortGetUnusedStack	8	static
+../Core/Src/TraceRecorder/trcKernelPort.c:139:13:xTraceKernelPortDelay	8	static
+../Core/Src/TraceRecorder/trcKernelPort.c:146:15:xTraceKernelPortIsSchedulerSuspended	8	static
+../Core/Src/TraceRecorder/trcKernelPort.c:169:13:xTraceKernelPortInitialize	0	static
+../Core/Src/TraceRecorder/trcKernelPort.c:186:13:xTraceKernelPortEnable	24	static
+../Core/Src/TraceRecorder/trcKernelPort.c:245:13:xTraceKernelPortSetTaskMonitorData	0	static
+../Core/Src/TraceRecorder/trcKernelPort.c:269:13:xTraceKernelPortGetTaskMonitorData	0	static
+../Core/Src/TraceRecorder/trcKernelPort.c:302:6:vTraceSetQueueName	8	static
+../Core/Src/TraceRecorder/trcKernelPort.c:307:6:vTraceSetSemaphoreName	8	static
+../Core/Src/TraceRecorder/trcKernelPort.c:312:6:vTraceSetMutexName	8	static
+../Core/Src/TraceRecorder/trcKernelPort.c:342:19:xTraceKernelPortGetSystemHeapHandle	0	static

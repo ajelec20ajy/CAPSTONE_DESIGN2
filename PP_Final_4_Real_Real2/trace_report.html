@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html>
+  <head>
+    <title>Statistics</title>
+    <style type="text/css">table.stats { border-collapse: collapse; }
+table.stats tr th { background: #A8C0EF; vertical-align: top; min-width: 100px; }
+table.stats tr:nth-child(odd)  td:nth-child(odd)  { background-color: #F0F0F0; }
+table.stats tr:nth-child(odd)  td:nth-child(even) { background-color: #D8D8D8; }
+table.stats tr:nth-child(even) td:nth-child(odd)  { background-color: #CDE0FF; }
+table.stats tr:nth-child(even) td:nth-child(even) { background-color: #B8D0FF; }
+table.stats tr td { padding: 5px; }
+table.stats tr td.val { text-align: right; }
+table.stats tr td.text { text-align: left; }
+table.stats tr td.min { border-left: 2px solid white; }
+table.stats tr td.max { border-right: 2px solid white; }
+dl dt { font-weight: bold; float: left; clear: left; }
+dl dt:after { content: ": "; padding-right: 10px; }
+dl dd { margin: 0 0 0 0; padding-bottom: 10px; }
+a { text-decoration: none; color: black; }
+a:hover { text-decoration: underline; color: blue; }
+</style>
+  </head>
+  <body>
+    <h1>Actor Statistics</h1>
+    <dl>
+      <dt>Count</dt>
+      <dd>Number of instances of an actor accounted for in this report.</dd>
+      <dt>CPU Usage</dt>
+      <dd>The amount of cpu usage of an actor relative to cpu capacity.</dd>
+      <dt>Execution Time</dt>
+      <dd>Time spent executing an instance.</dd>
+      <dt>Response Time</dt>
+      <dd>Time from start of an instance until its completion.</dd>
+      <dt>Fragmentation</dt>
+      <dd>The number of fragments of an actor instance (due to context-switching or interrupts).</dd>
+      <dt>Separation</dt>
+      <dd>The time between the end of an instance and the start of the next instance.</dd>
+      <dt>Periodicity</dt>
+      <dd>The time between the start of an instance and the start of the next instance.</dd>
+      <dt>Ready/Exec</dt>
+      <dd>Columns with '(Exec)' consider an actor instance to start when it starts executing, while those with '(Ready)' consider it to start when the actor becomes ready..</dd>
+    </dl>
+    <table class="stats">
+      <tr>
+        <th rowspan="2">Actor</th>
+        <th rowspan="2">Count</th>
+        <th rowspan="2">CPU Usage</th>
+        <th colspan="3">Execution Time</th>
+        <th colspan="3">Response Time</th>
+        <th colspan="3">Fragmentation</th>
+        <th colspan="3">Separation (Ready)</th>
+        <th colspan="3">Separation (Exec)</th>
+        <th colspan="3">Periodicity (Ready)</th>
+        <th colspan="3">Periodicity (Exec)</th>
+      </tr>
+      <tr>
+        <th>Min</th>
+        <th>Avg</th>
+        <th>Max</th>
+        <th>Min</th>
+        <th>Avg</th>
+        <th>Max</th>
+        <th>Min</th>
+        <th>Avg</th>
+        <th>Max</th>
+        <th>Min</th>
+        <th>Avg</th>
+        <th>Max</th>
+        <th>Min</th>
+        <th>Avg</th>
+        <th>Max</th>
+        <th>Min</th>
+        <th>Avg</th>
+        <th>Max</th>
+        <th>Min</th>
+        <th>Avg</th>
+        <th>Max</th>
+      </tr>
+      <tr>
+        <td class="name text">IDLE</td>
+        <td class="val">1</td>
+        <td class="val">92.665</td>
+        <td title="1:50.972.813 to 1:51.064.371 m:s.ms.µs" class="val min tz-inst-a0-i0">85.228</td>
+        <td class="val avg">85.228</td>
+        <td title="1:50.972.813 to 1:51.064.371 m:s.ms.µs" class="val max tz-inst-a0-i0">85.228</td>
+        <td title="1:50.972.813 to 1:51.064.371 m:s.ms.µs" class="val min tz-inst-a0-i0">91.558</td>
+        <td class="val avg">91.558</td>
+        <td title="1:50.972.813 to 1:51.064.371 m:s.ms.µs" class="val max tz-inst-a0-i0">91.558</td>
+        <td title="1:50.972.813 to 1:51.064.371 m:s.ms.µs" class="val min tz-inst-a0-i0">136</td>
+        <td class="val avg">136</td>
+        <td title="1:50.972.813 to 1:51.064.371 m:s.ms.µs" class="val max tz-inst-a0-i0">136</td>
+        <td class="val min">N/A</td>
+        <td class="val avg">N/A</td>
+        <td class="val max">N/A</td>
+        <td class="val min">N/A</td>
+        <td class="val avg">N/A</td>
+        <td class="val max">N/A</td>
+        <td class="val min">N/A</td>
+        <td class="val avg">N/A</td>
+        <td class="val max">N/A</td>
+        <td class="val min">N/A</td>
+        <td class="val avg">N/A</td>
+        <td class="val max">N/A</td>
+      </tr>
+      <tr>
+        <td class="name text">TzCtrl</td>
+        <td class="val">10</td>
+        <td class="val">2.191</td>
+        <td title="1:51.012.343 to 1:51.012.572 m:s.ms.µs" class="val min tz-inst-a1-i4">89</td>
+        <td class="val avg">201</td>
+        <td title="1:51.062.338 to 1:51.062.763 m:s.ms.µs" class="val max tz-inst-a1-i9">290</td>
+        <td title="1:50.982.337 to 1:50.982.544 m:s.ms.µs" class="val min tz-inst-a1-i1">207</td>
+        <td class="val avg">355</td>
+        <td title="1:50.992.343 to 1:50.992.818 m:s.ms.µs" class="val max tz-inst-a1-i2">475</td>
+        <td title="1:50.982.337 to 1:50.982.544 m:s.ms.µs" class="val min tz-inst-a1-i1">1</td>
+        <td class="val avg">3.1</td>
+        <td title="1:50.972.482 to 1:50.972.813 m:s.ms.µs" class="val max tz-inst-a1-i0">4</td>
+        <td title="1:50.982.337 to 1:50.982.544 m:s.ms.µs" class="val min tz-inst-a1-i1">9.524</td>
+        <td class="val avg">9.637</td>
+        <td title="1:50.992.343 to 1:50.992.818 m:s.ms.µs" class="val max tz-inst-a1-i2">9.799</td>
+        <td title="1:50.982.337 to 1:50.982.544 m:s.ms.µs" class="val min tz-inst-a1-i1">9.608</td>
+        <td class="val avg">9.768</td>
+        <td title="1:50.992.343 to 1:50.992.818 m:s.ms.µs" class="val max tz-inst-a1-i2">9.938</td>
+        <td title="1:50.982.337 to 1:50.982.544 m:s.ms.µs" class="val min tz-inst-a1-i1">9.855</td>
+        <td class="val avg">9.984</td>
+        <td title="1:51.052.350 to 1:51.052.791 m:s.ms.µs" class="val max tz-inst-a1-i8">10.012</td>
+        <td title="1:51.062.338 to 1:51.062.763 m:s.ms.µs" class="val min tz-inst-a1-i9">9.835</td>
+        <td class="val avg">9.993</td>
+        <td title="1:51.052.350 to 1:51.052.791 m:s.ms.µs" class="val max tz-inst-a1-i8">10.165</td>
+      </tr>
+      <tr>
+        <td class="name text">SENSOR</td>
+        <td class="val">31</td>
+        <td class="val">2.299</td>
+        <td title="1:50.992.350 to 1:50.992.396 m:s.ms.µs" class="val min tz-inst-a3-i5">29</td>
+        <td class="val avg">68</td>
+        <td title="1:51.003.226 to 1:51.003.373 m:s.ms.µs" class="val max tz-inst-a3-i11">130</td>
+        <td title="1:50.992.350 to 1:50.992.396 m:s.ms.µs" class="val min tz-inst-a3-i5">46</td>
+        <td class="val avg">85</td>
+        <td title="1:51.003.226 to 1:51.003.373 m:s.ms.µs" class="val max tz-inst-a3-i11">147</td>
+        <td title="1:50.972.724 to 1:50.972.793 m:s.ms.µs" class="val min tz-inst-a3-i0">1</td>
+        <td class="val avg">1</td>
+        <td title="1:50.972.724 to 1:50.972.793 m:s.ms.µs" class="val max tz-inst-a3-i0">1</td>
+        <td title="1:51.003.226 to 1:51.003.373 m:s.ms.µs" class="val min tz-inst-a3-i11">205</td>
+        <td class="val avg">2.934</td>
+        <td title="1:50.992.350 to 1:50.992.396 m:s.ms.µs" class="val max tz-inst-a3-i5">9.328</td>
+        <td title="1:51.003.226 to 1:51.003.373 m:s.ms.µs" class="val min tz-inst-a3-i11">222</td>
+        <td class="val avg">2.951</td>
+        <td title="1:50.992.350 to 1:50.992.396 m:s.ms.µs" class="val max tz-inst-a3-i5">9.345</td>
+        <td title="1:51.012.615 to 1:51.012.681 m:s.ms.µs" class="val min tz-inst-a3-i13">265</td>
+        <td class="val avg">3.017</td>
+        <td title="1:50.992.350 to 1:50.992.396 m:s.ms.µs" class="val max tz-inst-a3-i5">9.463</td>
+        <td title="1:51.012.615 to 1:51.012.681 m:s.ms.µs" class="val min tz-inst-a3-i13">265</td>
+        <td class="val avg">3.017</td>
+        <td title="1:50.992.350 to 1:50.992.396 m:s.ms.µs" class="val max tz-inst-a3-i5">9.463</td>
+      </tr>
+      <tr>
+        <td class="name text">NAVIGATE</td>
+        <td class="val">2</td>
+        <td class="val">0.226</td>
+        <td title="1:51.052.338 to 1:51.052.565 m:s.ms.µs" class="val min tz-inst-a4-i1">102</td>
+        <td class="val avg">104</td>
+        <td title="1:51.002.338 to 1:51.002.507 m:s.ms.µs" class="val max tz-inst-a4-i0">106</td>
+        <td title="1:51.002.338 to 1:51.002.507 m:s.ms.µs" class="val min tz-inst-a4-i0">169</td>
+        <td class="val avg">198</td>
+        <td title="1:51.052.338 to 1:51.052.565 m:s.ms.µs" class="val max tz-inst-a4-i1">226</td>
+        <td title="1:51.002.338 to 1:51.002.507 m:s.ms.µs" class="val min tz-inst-a4-i0">1</td>
+        <td class="val avg">1</td>
+        <td title="1:51.002.338 to 1:51.002.507 m:s.ms.µs" class="val max tz-inst-a4-i0">1</td>
+        <td title="1:51.052.338 to 1:51.052.565 m:s.ms.µs" class="val min tz-inst-a4-i1">49.831</td>
+        <td class="val avg">49.831</td>
+        <td title="1:51.052.338 to 1:51.052.565 m:s.ms.µs" class="val max tz-inst-a4-i1">49.831</td>
+        <td title="1:51.052.338 to 1:51.052.565 m:s.ms.µs" class="val min tz-inst-a4-i1">49.955</td>
+        <td class="val avg">49.955</td>
+        <td title="1:51.052.338 to 1:51.052.565 m:s.ms.µs" class="val max tz-inst-a4-i1">49.955</td>
+        <td title="1:51.052.338 to 1:51.052.565 m:s.ms.µs" class="val min tz-inst-a4-i1">50.000</td>
+        <td class="val avg">50.000</td>
+        <td title="1:51.052.338 to 1:51.052.565 m:s.ms.µs" class="val max tz-inst-a4-i1">50.000</td>
+        <td title="1:51.052.338 to 1:51.052.565 m:s.ms.µs" class="val min tz-inst-a4-i1">50.061</td>
+        <td class="val avg">50.061</td>
+        <td title="1:51.052.338 to 1:51.052.565 m:s.ms.µs" class="val max tz-inst-a4-i1">50.061</td>
+      </tr>
+      <tr>
+        <td class="name text">CONTROL</td>
+        <td class="val">5</td>
+        <td class="val">0.342</td>
+        <td title="1:51.052.345 to 1:51.052.462 m:s.ms.µs" class="val min tz-inst-a5-i4">59</td>
+        <td class="val avg">63</td>
+        <td title="1:50.992.337 to 1:50.992.460 m:s.ms.µs" class="val max tz-inst-a5-i1">65</td>
+        <td title="1:50.972.397 to 1:50.972.460 m:s.ms.µs" class="val min tz-inst-a5-i0">63</td>
+        <td class="val avg">110</td>
+        <td title="1:51.032.337 to 1:51.032.461 m:s.ms.µs" class="val max tz-inst-a5-i3">124</td>
+        <td title="1:50.972.397 to 1:50.972.460 m:s.ms.µs" class="val min tz-inst-a5-i0">1</td>
+        <td class="val avg">1</td>
+        <td title="1:50.972.397 to 1:50.972.460 m:s.ms.µs" class="val max tz-inst-a5-i0">1</td>
+        <td title="1:51.012.337 to 1:51.012.460 m:s.ms.µs" class="val min tz-inst-a5-i2">19.877</td>
+        <td class="val avg">19.878</td>
+        <td title="1:51.052.345 to 1:51.052.462 m:s.ms.µs" class="val max tz-inst-a5-i4">19.884</td>
+        <td title="1:50.992.337 to 1:50.992.460 m:s.ms.µs" class="val min tz-inst-a5-i1">19.935</td>
+        <td class="val avg">19.938</td>
+        <td title="1:51.052.345 to 1:51.052.462 m:s.ms.µs" class="val max tz-inst-a5-i4">19.942</td>
+        <td title="1:50.992.337 to 1:50.992.460 m:s.ms.µs" class="val min tz-inst-a5-i1">19.940</td>
+        <td class="val avg">19.987</td>
+        <td title="1:51.052.345 to 1:51.052.462 m:s.ms.µs" class="val max tz-inst-a5-i4">20.008</td>
+        <td title="1:50.992.337 to 1:50.992.460 m:s.ms.µs" class="val min tz-inst-a5-i1">19.999</td>
+        <td class="val avg">20.002</td>
+        <td title="1:51.052.345 to 1:51.052.462 m:s.ms.µs" class="val max tz-inst-a5-i4">20.006</td>
+      </tr>
+      <tr>
+        <td class="name text">LCD</td>
+        <td class="val">93</td>
+        <td class="val">2.278</td>
+        <td title="1:50.979.338 to 1:50.979.370 m:s.ms.µs" class="val min tz-inst-a6-i7">21</td>
+        <td class="val avg">23</td>
+        <td title="1:50.991.338 to 1:50.991.373 m:s.ms.µs" class="val max tz-inst-a6-i19">24</td>
+        <td title="1:50.972.460 to 1:50.972.482 m:s.ms.µs" class="val min tz-inst-a6-i0">22</td>
+        <td class="val avg">42</td>
+        <td title="1:51.052.363 to 1:51.052.587 m:s.ms.µs" class="val max tz-inst-a6-i80">224</td>
+        <td title="1:50.972.460 to 1:50.972.482 m:s.ms.µs" class="val min tz-inst-a6-i0">1</td>
+        <td class="val avg">1</td>
+        <td title="1:50.972.460 to 1:50.972.482 m:s.ms.µs" class="val max tz-inst-a6-i0">1</td>
+        <td title="1:51.053.338 to 1:51.053.371 m:s.ms.µs" class="val min tz-inst-a6-i81">752</td>
+        <td class="val avg">957</td>
+        <td title="1:51.052.363 to 1:51.052.587 m:s.ms.µs" class="val max tz-inst-a6-i80">991</td>
+        <td title="1:51.053.338 to 1:51.053.371 m:s.ms.µs" class="val min tz-inst-a6-i81">762</td>
+        <td class="val avg">976</td>
+        <td title="1:51.052.363 to 1:51.052.587 m:s.ms.µs" class="val max tz-inst-a6-i80">1.193</td>
+        <td title="1:50.973.337 to 1:50.973.371 m:s.ms.µs" class="val min tz-inst-a6-i1">877</td>
+        <td class="val avg">999</td>
+        <td title="1:51.052.363 to 1:51.052.587 m:s.ms.µs" class="val max tz-inst-a6-i80">1.024</td>
+        <td title="1:51.053.338 to 1:51.053.371 m:s.ms.µs" class="val min tz-inst-a6-i81">784</td>
+        <td class="val avg">999</td>
+        <td title="1:51.052.363 to 1:51.052.587 m:s.ms.µs" class="val max tz-inst-a6-i80">1.216</td>
+      </tr>
+      <tr>
+        <td class="name text">ISR notifying 0x20005608</td>
+        <td class="val">44</td>
+        <td class="val">0.000</td>
+        <td title="1:50.972.719 to 1:50.972.719 m:s.ms.µs" class="val min tz-inst-a7-i0">0</td>
+        <td class="val avg">0</td>
+        <td title="1:50.972.719 to 1:50.972.719 m:s.ms.µs" class="val max tz-inst-a7-i0">0</td>
+        <td title="1:50.972.719 to 1:50.972.719 m:s.ms.µs" class="val min tz-inst-a7-i0">0</td>
+        <td class="val avg">0</td>
+        <td title="1:50.972.719 to 1:50.972.719 m:s.ms.µs" class="val max tz-inst-a7-i0">0</td>
+        <td title="1:50.972.719 to 1:50.972.719 m:s.ms.µs" class="val min tz-inst-a7-i0">1</td>
+        <td class="val avg">1</td>
+        <td title="1:50.972.719 to 1:50.972.719 m:s.ms.µs" class="val max tz-inst-a7-i0">1</td>
+        <td title="1:50.992.736 to 1:50.992.736 m:s.ms.µs" class="val min tz-inst-a7-i9">12</td>
+        <td class="val avg">2.105</td>
+        <td title="1:50.992.725 to 1:50.992.725 m:s.ms.µs" class="val max tz-inst-a7-i8">9.831</td>
+        <td title="1:50.992.736 to 1:50.992.736 m:s.ms.µs" class="val min tz-inst-a7-i9">12</td>
+        <td class="val avg">2.105</td>
+        <td title="1:50.992.725 to 1:50.992.725 m:s.ms.µs" class="val max tz-inst-a7-i8">9.831</td>
+        <td title="1:50.992.736 to 1:50.992.736 m:s.ms.µs" class="val min tz-inst-a7-i9">12</td>
+        <td class="val avg">2.105</td>
+        <td title="1:50.992.725 to 1:50.992.725 m:s.ms.µs" class="val max tz-inst-a7-i8">9.831</td>
+        <td title="1:50.992.736 to 1:50.992.736 m:s.ms.µs" class="val min tz-inst-a7-i9">12</td>
+        <td class="val avg">2.105</td>
+        <td title="1:50.992.725 to 1:50.992.725 m:s.ms.µs" class="val max tz-inst-a7-i8">9.831</td>
+      </tr>
+    </table>
+  </body>
+</html>

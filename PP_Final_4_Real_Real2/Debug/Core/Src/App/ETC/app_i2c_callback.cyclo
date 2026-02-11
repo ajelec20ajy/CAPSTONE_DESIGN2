@@ -1,0 +1,1 @@
+../Core/Src/App/ETC/app_i2c_callback.c:18:6:HAL_I2C_MemRxCpltCallback	2

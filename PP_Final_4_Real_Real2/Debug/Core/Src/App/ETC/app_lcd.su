@@ -1,0 +1,3 @@
+../Core/Src/App/ETC/app_lcd.c:14:6:lcd_init	8	static
+../Core/Src/App/ETC/app_lcd.c:23:6:lcd_put_cursor_buf	8	static
+../Core/Src/App/ETC/app_lcd.c:28:6:lcd_send_string_buf	8	static

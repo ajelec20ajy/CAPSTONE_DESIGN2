@@ -1,0 +1,3 @@
+../Core/Src/BSP/Servo(MG996R)/bsp_servo.c:32:6:Init_Servo	1
+../Core/Src/BSP/Servo(MG996R)/bsp_servo.c:36:6:CHANGE_SERVO_PWM	3
+../Core/Src/BSP/Servo(MG996R)/bsp_servo.c:47:10:radian_to_servo_ccr	3
